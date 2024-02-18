@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "mod.chloeprime.blasmatech.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "blasmatech.refmap.json",
+  "mixins": [
+    "FluidAttributeBuilderAccessor",
+    "GeneratingFlowerBEAccessor",
+    "MixinBlockStateBase",
+    "MixinEndoFlame",
+    "MixinFunctionalFlowerBE",
+    "MixinGeneratingFlowerBE",
+    "MixinSpecialFlowerBlock",
+    "MixinTileSpreader"
+  ],
+  "client": [
+    "client.ParticleEngineAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

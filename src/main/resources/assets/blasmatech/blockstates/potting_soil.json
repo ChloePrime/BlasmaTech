@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "blasmatech:block/potting_soil"
+      },
+      {
+        "model": "blasmatech:block/potting_soil",
+        "y": 90
+      },
+      {
+        "model": "blasmatech:block/potting_soil",
+        "y": 180
+      },
+      {
+        "model": "blasmatech:block/potting_soil",
+        "y": 270
+      }
+    ]
+  }
+}
